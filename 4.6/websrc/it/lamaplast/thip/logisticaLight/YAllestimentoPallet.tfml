@@ -1,0 +1,20 @@
+<tfml>
+<generator type="form"/>
+  	<form
+  		classHdr="YAllestPallet"
+		name="form"
+    	errorList="no"
+		menubar="no"
+		toolbar="no"
+		submitReset="none"
+		servlet="it.lamaplast.thip.logisticaLight.web.YAllestimentoPalletFormActionAdapter"
+		webFormModifierClass="it.lamaplast.thip.logisticaLight.web.YAllestimentoPalletWebFormModifier"		
+		jsLibraryName="it/lamaplast/thip/logisticaLight/YAllestimentoPallet.js"
+		onLoadPresent="yes"
+	>
+		<textinput name="BarcodeDocumento" classAD="BarcodeDocumento"/>
+		<textinput name="BarcodePallet" classAD="BarcodePallet"/>
+		<textinput name="BarcodeScatola" classAD="BarcodeScatola"/>	
+	</form>
+</tfml>
+
